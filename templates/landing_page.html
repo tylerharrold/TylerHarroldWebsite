@@ -4,10 +4,30 @@
 
 <div class="jumbotron">
   <h1 class="display-4">The Personal Portfolio of Tyler Harrold</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-  <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Resume</a>
+  <br>
+  <a class="btn btn-primary btn-lg" href=" {{url_for('static' , filename='TylerHarroldResume.pdf')}} " role="button">Resum&eacute</a>
+</div>
+
+<div class="container">
+	<div class='mx-auto' style="width: 600px">
+		<h3>Languages</h3>
+		<ul>
+			<li>Java</li>
+			<li>Python</li>
+			<li>c++</li>
+			<li>javascript/html/css</li>
+		</ul>
+
+		<h3>Experience</h3>
+		<ul>
+			<li>Substantial experience with object oriented design patterns</li>
+			<li>Work with various web frameworks, most notably node.js and flask</li>
+			<li>Experience working with machine learning models with tensorflow</li>
+			<li>Database design and implementation with both SQL and noSQL architectures</li>
+			<li>Algorithm analysis and interpretation</li>
+			<li>Application design using Microsoft's Visual Basic for Applications</li>
+		</ul>
+	</div>
 </div>
 
 {% endblock %}
